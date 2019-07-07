@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1054969314115",
+    "firebase_url": "https://fitness-fa14f.firebaseio.com",
+    "project_id": "fitness-fa14f",
+    "storage_bucket": "fitness-fa14f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054969314115:android:6f291ab9a753fe4c",
+        "android_client_info": {
+          "package_name": "com.androiddeft.loginandregistration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-1iuiHx4h1Bxjo8fHk0igkK1e9Y5jzK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054969314115-7ttorfnhld5g6p9pkgpmnn12dt53brcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#304769"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_fullname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_uname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Welcome"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_session"/>
+
+
+
+</LinearLayout>

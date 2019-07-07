@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExerciseCountdownActivity">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/excerciseImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:src="@mipmap/ic_launcher"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_margin="15dp"
+        android:max="10"
+        android:minHeight="50dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="100dp"
+        android:progress="0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mainpage_button"
+        android:layout_margin="20dp"
+        android:text="Start Timer"
+        android:layout_weight="1"
+        android:id="@+id/startBtn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/mainpage_button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:text="Reset Timer"
+        android:id="@+id/resetBtn" />
+</LinearLayout>
